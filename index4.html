@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            float: left;
+            width: 33.33%;
+            padding: 50px;
+
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h2>Grid of Boxes</h2>
+    <p>Float boxes side by side</p>
+    <div class="clearfix">
+        <div class="box" style="background-color: #bbb;">
+            <p>Some text inside the box.</p>
+
+        </div>
+
+        <div class="box" style="background-color: #ccc;">
+            <p>Some text inside the box.</p>
+
+        </div>
+        <div class="box" style="background-color: #ddd;">
+            <p>Some text inside the box.</p>
+
+        </div>
+
+    </div>
+    <p><strong>Note:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium placeat aperiam nostrum labore dicta dolores aut atque beatae esse tempora nam, ipsam impedit sequi delectus magni. Obcaecati temporibus aperiam corporis.</p>
+
+</body>
+</html>
