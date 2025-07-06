@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .img-container{
+            float: left;
+            padding: 5px;
+            width: 33.33%;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h2>Images Side by Side</h2>
+    <p>Float images side by side:</p>
+    <div class="clearfix">
+        <div class="img-container">
+            <img src="image/daniil-silantev-xUfATl0k8Cg-unsplash.jpg" alt="Forest" style="height:100%; width: 100%;">
+        
+        </div>
+
+        
+            <div class="img-container">
+                <img src="image/china2.jpg" alt="Fore" style="height: 100%; width: 100%;">
+            
+            </div>
+        
+            
+                <div class="img-container">
+                    <img src="image/daniil-silantev-xUfATl0k8Cg-unsplash.jpg" alt="Forest" style="height: 100%; width: 100%;">
+                
+                </div>
+                
+    </div>
+    <p><strong>Note:</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, minus perferendis. Enim aperiam veniam fugiat dolor dolore ipsa doloribus quibusdam nisi laboriosam, aliquid eius voluptates mollitia vitae, suscipit neque aspernatur?</p>
+
+</body>
+</html>
