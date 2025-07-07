@@ -1,0 +1,15 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    
+}
+nav li a{
+    text-decoration: none;
+    padding: 15px;
+
+}
+footer{
+    text-align: center;
+    color: goldenrod;
+}
